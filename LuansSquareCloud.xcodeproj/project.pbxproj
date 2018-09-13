@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E33550C2147C77A001BBCEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33550B2147C77A001BBCEC /* LoginViewController.swift */; };
+		2E33550E2147C7BF001BBCEC /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33550D2147C7BF001BBCEC /* MainTabViewController.swift */; };
+		2E3355112147C972001BBCEC /* LoginViewControllerSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3355102147C972001BBCEC /* LoginViewControllerSwitcher.swift */; };
+		2E3355142148DF37001BBCEC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3355132148DF37001BBCEC /* UserModel.swift */; };
+		2E33551821490311001BBCEC /* RestApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33551721490311001BBCEC /* RestApiService.swift */; };
+		2E33551A214A00BB001BBCEC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E335519214A00BB001BBCEC /* UserService.swift */; };
+		2E720F75214A2529006ADB05 /* env_setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E720F74214A2529006ADB05 /* env_setting.plist */; };
+		2E720F78214A25A7006ADB05 /* CommonUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E720F77214A25A7006ADB05 /* CommonUtill.swift */; };
 		2EBFC5DC2147A07B00C83633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */; };
 		2EBFC5DE2147A07B00C83633 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */; };
 		2EBFC5E02147A07B00C83633 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DF2147A07B00C83633 /* SecondViewController.swift */; };
 		2EBFC5E32147A07B00C83633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E12147A07B00C83633 /* Main.storyboard */; };
 		2EBFC5E52147A07D00C83633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E42147A07D00C83633 /* Assets.xcassets */; };
 		2EBFC5E82147A07D00C83633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E62147A07D00C83633 /* LaunchScreen.storyboard */; };
+		8FC930DF7CEE88BDB91ED59B /* Pods_LuansSquareCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD44DC625211B8A6881E7848 /* Pods_LuansSquareCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E33550B2147C77A001BBCEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E33550D2147C7BF001BBCEC /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		2E3355102147C972001BBCEC /* LoginViewControllerSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerSwitcher.swift; sourceTree = "<group>"; };
+		2E3355132148DF37001BBCEC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2E33551721490311001BBCEC /* RestApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiService.swift; sourceTree = "<group>"; };
+		2E335519214A00BB001BBCEC /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2E720F74214A2529006ADB05 /* env_setting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = env_setting.plist; sourceTree = "<group>"; };
+		2E720F77214A25A7006ADB05 /* CommonUtill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtill.swift; sourceTree = "<group>"; };
 		2EBFC5D82147A07B00C83633 /* LuansSquareCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuansSquareCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,9 @@
 		2EBFC5E42147A07D00C83633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EBFC5E72147A07D00C83633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EBFC5E92147A07D00C83633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516C48EF3A8585FCC47905A0 /* Pods-LuansSquareCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuansSquareCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud.release.xcconfig"; sourceTree = "<group>"; };
+		5249A96A8A474349690E35D1 /* Pods-LuansSquareCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuansSquareCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		FD44DC625211B8A6881E7848 /* Pods_LuansSquareCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuansSquareCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC930DF7CEE88BDB91ED59B /* Pods_LuansSquareCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E33550A2147C748001BBCEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E33550B2147C77A001BBCEC /* LoginViewController.swift */,
+				2E33550D2147C7BF001BBCEC /* MainTabViewController.swift */,
+				2E335539214A10E2001BBCEC /* util */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E33550F2147C905001BBCEC /* login */ = {
+			isa = PBXGroup;
+			children = (
+				2E3355102147C972001BBCEC /* LoginViewControllerSwitcher.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		2E3355122148DF0E001BBCEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E3355132148DF37001BBCEC /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E3355152148EA99001BBCEC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2E33551721490311001BBCEC /* RestApiService.swift */,
+				2E335519214A00BB001BBCEC /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2E3355162148EADD001BBCEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E33550F2147C905001BBCEC /* login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E335536214A0EBD001BBCEC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E720F74214A2529006ADB05 /* env_setting.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		2E335539214A10E2001BBCEC /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		2E335557214A1C47001BBCEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD44DC625211B8A6881E7848 /* Pods_LuansSquareCloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E720F76214A2590006ADB05 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				2E720F77214A25A7006ADB05 /* CommonUtill.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		2EBFC5CF2147A07B00C83633 = {
 			isa = PBXGroup;
 			children = (
 				2EBFC5DA2147A07B00C83633 /* LuansSquareCloud */,
 				2EBFC5D92147A07B00C83633 /* Products */,
+				2E335557214A1C47001BBCEC /* Frameworks */,
+				78E15B241A90077A9B203D47 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +153,12 @@
 		2EBFC5DA2147A07B00C83633 /* LuansSquareCloud */ = {
 			isa = PBXGroup;
 			children = (
+				2E720F76214A2590006ADB05 /* util */,
+				2E335536214A0EBD001BBCEC /* resources */,
+				2E3355152148EA99001BBCEC /* Service */,
+				2E3355162148EADD001BBCEC /* View */,
+				2E3355122148DF0E001BBCEC /* Model */,
+				2E33550A2147C748001BBCEC /* Controller */,
 				2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */,
 				2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */,
 				2EBFC5DF2147A07B00C83633 /* SecondViewController.swift */,
@@ -67,6 +170,15 @@
 			path = LuansSquareCloud;
 			sourceTree = "<group>";
 		};
+		78E15B241A90077A9B203D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5249A96A8A474349690E35D1 /* Pods-LuansSquareCloud.debug.xcconfig */,
+				516C48EF3A8585FCC47905A0 /* Pods-LuansSquareCloud.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EBFC5EC2147A07D00C83633 /* Build configuration list for PBXNativeTarget "LuansSquareCloud" */;
 			buildPhases = (
+				79031BABCF92D7E9B5DD61B8 /* [CP] Check Pods Manifest.lock */,
 				2EBFC5D42147A07B00C83633 /* Sources */,
 				2EBFC5D52147A07B00C83633 /* Frameworks */,
 				2EBFC5D62147A07B00C83633 /* Resources */,
+				F383A6A3B2C8A59804C7C8A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EBFC5E82147A07D00C83633 /* LaunchScreen.storyboard in Resources */,
+				2E720F75214A2529006ADB05 /* env_setting.plist in Resources */,
 				2EBFC5E52147A07D00C83633 /* Assets.xcassets in Resources */,
 				2EBFC5E32147A07B00C83633 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +248,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79031BABCF92D7E9B5DD61B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuansSquareCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F383A6A3B2C8A59804C7C8A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EBFC5D42147A07B00C83633 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E33551821490311001BBCEC /* RestApiService.swift in Sources */,
+				2E33550E2147C7BF001BBCEC /* MainTabViewController.swift in Sources */,
+				2E33551A214A00BB001BBCEC /* UserService.swift in Sources */,
+				2E3355112147C972001BBCEC /* LoginViewControllerSwitcher.swift in Sources */,
+				2E33550C2147C77A001BBCEC /* LoginViewController.swift in Sources */,
+				2E720F78214A25A7006ADB05 /* CommonUtill.swift in Sources */,
 				2EBFC5E02147A07B00C83633 /* SecondViewController.swift in Sources */,
 				2EBFC5DC2147A07B00C83633 /* AppDelegate.swift in Sources */,
 				2EBFC5DE2147A07B00C83633 /* FirstViewController.swift in Sources */,
+				2E3355142148DF37001BBCEC /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +443,7 @@
 		};
 		2EBFC5ED2147A07D00C83633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5249A96A8A474349690E35D1 /* Pods-LuansSquareCloud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +462,7 @@
 		};
 		2EBFC5EE2147A07D00C83633 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516C48EF3A8585FCC47905A0 /* Pods-LuansSquareCloud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
