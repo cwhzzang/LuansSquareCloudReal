@@ -13,11 +13,19 @@
 		2E3355142148DF37001BBCEC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3355132148DF37001BBCEC /* UserModel.swift */; };
 		2E33551821490311001BBCEC /* RestApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33551721490311001BBCEC /* RestApiService.swift */; };
 		2E33551A214A00BB001BBCEC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E335519214A00BB001BBCEC /* UserService.swift */; };
+		2E390C9D214B58C700695F2C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E390C9F214B58C700695F2C /* Localizable.strings */; };
+		2E390CA4214B591200695F2C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CA3214B591200695F2C /* StringExtension.swift */; };
+		2E390CAA214B7DD900695F2C /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CA9214B7DD900695F2C /* StoreViewController.swift */; };
+		2E390CAC214B7E0300695F2C /* ProfileViewMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CAB214B7E0300695F2C /* ProfileViewMainController.swift */; };
+		2E390CAE214B88A100695F2C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CAD214B88A100695F2C /* Color.swift */; };
+		2E390CB4214BE21600695F2C /* RegisterUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CB3214BE21600695F2C /* RegisterUserViewController.swift */; };
+		2E390CB6214BE4A500695F2C /* LoginNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CB5214BE4A500695F2C /* LoginNavigationViewController.swift */; };
+		2E390CB8214BF1B900695F2C /* RegisterUserPasswordViewContollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E390CB7214BF1B900695F2C /* RegisterUserPasswordViewContollerViewController.swift */; };
 		2E720F75214A2529006ADB05 /* env_setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E720F74214A2529006ADB05 /* env_setting.plist */; };
 		2E720F78214A25A7006ADB05 /* CommonUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E720F77214A25A7006ADB05 /* CommonUtill.swift */; };
 		2EBFC5DC2147A07B00C83633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */; };
-		2EBFC5DE2147A07B00C83633 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */; };
-		2EBFC5E02147A07B00C83633 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DF2147A07B00C83633 /* SecondViewController.swift */; };
+		2EBFC5DE2147A07B00C83633 /* DeviceListMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DD2147A07B00C83633 /* DeviceListMainController.swift */; };
+		2EBFC5E02147A07B00C83633 /* RuleTaskListMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC5DF2147A07B00C83633 /* RuleTaskListMainController.swift */; };
 		2EBFC5E32147A07B00C83633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E12147A07B00C83633 /* Main.storyboard */; };
 		2EBFC5E52147A07D00C83633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E42147A07D00C83633 /* Assets.xcassets */; };
 		2EBFC5E82147A07D00C83633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFC5E62147A07D00C83633 /* LaunchScreen.storyboard */; };
@@ -31,15 +39,33 @@
 		2E3355132148DF37001BBCEC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		2E33551721490311001BBCEC /* RestApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiService.swift; sourceTree = "<group>"; };
 		2E335519214A00BB001BBCEC /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2E390C93214B573D00695F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E390C94214B573D00695F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E390C96214B576600695F2C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2E390C97214B577000695F2C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		2E390C98214B577000695F2C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2E390C99214B578100695F2C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2E390C9A214B578100695F2C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2E390C9E214B58C700695F2C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E390CA0214B58CE00695F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E390CA1214B58D000695F2C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E390CA2214B58D200695F2C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2E390CA3214B591200695F2C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		2E390CA9214B7DD900695F2C /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		2E390CAB214B7E0300695F2C /* ProfileViewMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewMainController.swift; sourceTree = "<group>"; };
+		2E390CAD214B88A100695F2C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2E390CB0214BAA8200695F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2E390CB2214BAAA300695F2C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		2E390CB3214BE21600695F2C /* RegisterUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserViewController.swift; sourceTree = "<group>"; };
+		2E390CB5214BE4A500695F2C /* LoginNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationViewController.swift; sourceTree = "<group>"; };
+		2E390CB7214BF1B900695F2C /* RegisterUserPasswordViewContollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserPasswordViewContollerViewController.swift; sourceTree = "<group>"; };
 		2E720F74214A2529006ADB05 /* env_setting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = env_setting.plist; sourceTree = "<group>"; };
 		2E720F77214A25A7006ADB05 /* CommonUtill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtill.swift; sourceTree = "<group>"; };
 		2EBFC5D82147A07B00C83633 /* LuansSquareCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuansSquareCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2EBFC5DF2147A07B00C83633 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		2EBFC5E22147A07B00C83633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EBFC5DD2147A07B00C83633 /* DeviceListMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListMainController.swift; sourceTree = "<group>"; };
+		2EBFC5DF2147A07B00C83633 /* RuleTaskListMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleTaskListMainController.swift; sourceTree = "<group>"; };
 		2EBFC5E42147A07D00C83633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2EBFC5E72147A07D00C83633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EBFC5E92147A07D00C83633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516C48EF3A8585FCC47905A0 /* Pods-LuansSquareCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuansSquareCloud.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud.release.xcconfig"; sourceTree = "<group>"; };
 		5249A96A8A474349690E35D1 /* Pods-LuansSquareCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuansSquareCloud.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuansSquareCloud/Pods-LuansSquareCloud.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,9 +87,12 @@
 		2E33550A2147C748001BBCEC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2E33550B2147C77A001BBCEC /* LoginViewController.swift */,
+				2E33550F2147C905001BBCEC /* login */,
+				2E390CA5214B7D5900695F2C /* DevicesView */,
+				2E390CA6214B7D7200695F2C /* RuleTaskView */,
+				2E390CA7214B7D8400695F2C /* storeView */,
+				2E390CA8214B7D8F00695F2C /* ProfileView */,
 				2E33550D2147C7BF001BBCEC /* MainTabViewController.swift */,
-				2E335539214A10E2001BBCEC /* util */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -71,7 +100,11 @@
 		2E33550F2147C905001BBCEC /* login */ = {
 			isa = PBXGroup;
 			children = (
+				2E33550B2147C77A001BBCEC /* LoginViewController.swift */,
 				2E3355102147C972001BBCEC /* LoginViewControllerSwitcher.swift */,
+				2E390CB3214BE21600695F2C /* RegisterUserViewController.swift */,
+				2E390CB5214BE4A500695F2C /* LoginNavigationViewController.swift */,
+				2E390CB7214BF1B900695F2C /* RegisterUserPasswordViewContollerViewController.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -93,27 +126,12 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		2E3355162148EADD001BBCEC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2E33550F2147C905001BBCEC /* login */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		2E335536214A0EBD001BBCEC /* resources */ = {
 			isa = PBXGroup;
 			children = (
 				2E720F74214A2529006ADB05 /* env_setting.plist */,
 			);
 			path = resources;
-			sourceTree = "<group>";
-		};
-		2E335539214A10E2001BBCEC /* util */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = util;
 			sourceTree = "<group>";
 		};
 		2E335557214A1C47001BBCEC /* Frameworks */ = {
@@ -124,10 +142,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2E390CA5214B7D5900695F2C /* DevicesView */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFC5DD2147A07B00C83633 /* DeviceListMainController.swift */,
+			);
+			path = DevicesView;
+			sourceTree = "<group>";
+		};
+		2E390CA6214B7D7200695F2C /* RuleTaskView */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFC5DF2147A07B00C83633 /* RuleTaskListMainController.swift */,
+			);
+			path = RuleTaskView;
+			sourceTree = "<group>";
+		};
+		2E390CA7214B7D8400695F2C /* storeView */ = {
+			isa = PBXGroup;
+			children = (
+				2E390CA9214B7DD900695F2C /* StoreViewController.swift */,
+			);
+			path = storeView;
+			sourceTree = "<group>";
+		};
+		2E390CA8214B7D8F00695F2C /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				2E390CAB214B7E0300695F2C /* ProfileViewMainController.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 		2E720F76214A2590006ADB05 /* util */ = {
 			isa = PBXGroup;
 			children = (
 				2E720F77214A25A7006ADB05 /* CommonUtill.swift */,
+				2E390CA3214B591200695F2C /* StringExtension.swift */,
+				2E390CAD214B88A100695F2C /* Color.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -135,6 +187,7 @@
 		2EBFC5CF2147A07B00C83633 = {
 			isa = PBXGroup;
 			children = (
+				2E390C9F214B58C700695F2C /* Localizable.strings */,
 				2EBFC5DA2147A07B00C83633 /* LuansSquareCloud */,
 				2EBFC5D92147A07B00C83633 /* Products */,
 				2E335557214A1C47001BBCEC /* Frameworks */,
@@ -156,12 +209,9 @@
 				2E720F76214A2590006ADB05 /* util */,
 				2E335536214A0EBD001BBCEC /* resources */,
 				2E3355152148EA99001BBCEC /* Service */,
-				2E3355162148EADD001BBCEC /* View */,
 				2E3355122148DF0E001BBCEC /* Model */,
 				2E33550A2147C748001BBCEC /* Controller */,
 				2EBFC5DB2147A07B00C83633 /* AppDelegate.swift */,
-				2EBFC5DD2147A07B00C83633 /* FirstViewController.swift */,
-				2EBFC5DF2147A07B00C83633 /* SecondViewController.swift */,
 				2EBFC5E12147A07B00C83633 /* Main.storyboard */,
 				2EBFC5E42147A07D00C83633 /* Assets.xcassets */,
 				2EBFC5E62147A07D00C83633 /* LaunchScreen.storyboard */,
@@ -207,6 +257,9 @@
 		2EBFC5D02147A07B00C83633 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					ff,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "cho wanhee";
@@ -223,6 +276,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hans",
+				ko,
 			);
 			mainGroup = 2EBFC5CF2147A07B00C83633;
 			productRefGroup = 2EBFC5D92147A07B00C83633 /* Products */;
@@ -239,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E390C9D214B58C700695F2C /* Localizable.strings in Resources */,
 				2EBFC5E82147A07D00C83633 /* LaunchScreen.storyboard in Resources */,
 				2E720F75214A2529006ADB05 /* env_setting.plist in Resources */,
 				2EBFC5E52147A07D00C83633 /* Assets.xcassets in Resources */,
@@ -298,9 +355,16 @@
 				2E3355112147C972001BBCEC /* LoginViewControllerSwitcher.swift in Sources */,
 				2E33550C2147C77A001BBCEC /* LoginViewController.swift in Sources */,
 				2E720F78214A25A7006ADB05 /* CommonUtill.swift in Sources */,
-				2EBFC5E02147A07B00C83633 /* SecondViewController.swift in Sources */,
+				2E390CB6214BE4A500695F2C /* LoginNavigationViewController.swift in Sources */,
+				2EBFC5E02147A07B00C83633 /* RuleTaskListMainController.swift in Sources */,
+				2E390CAA214B7DD900695F2C /* StoreViewController.swift in Sources */,
 				2EBFC5DC2147A07B00C83633 /* AppDelegate.swift in Sources */,
-				2EBFC5DE2147A07B00C83633 /* FirstViewController.swift in Sources */,
+				2E390CAE214B88A100695F2C /* Color.swift in Sources */,
+				2E390CB4214BE21600695F2C /* RegisterUserViewController.swift in Sources */,
+				2EBFC5DE2147A07B00C83633 /* DeviceListMainController.swift in Sources */,
+				2E390CAC214B7E0300695F2C /* ProfileViewMainController.swift in Sources */,
+				2E390CA4214B591200695F2C /* StringExtension.swift in Sources */,
+				2E390CB8214BF1B900695F2C /* RegisterUserPasswordViewContollerViewController.swift in Sources */,
 				2E3355142148DF37001BBCEC /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,10 +372,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2E390C9F214B58C700695F2C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E390C9E214B58C700695F2C /* ko */,
+				2E390CA0214B58CE00695F2C /* en */,
+				2E390CA1214B58D000695F2C /* ja */,
+				2E390CA2214B58D200695F2C /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2EBFC5E12147A07B00C83633 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2EBFC5E22147A07B00C83633 /* Base */,
+				2E390C93214B573D00695F2C /* Base */,
+				2E390C97214B577000695F2C /* ja */,
+				2E390C99214B578100695F2C /* zh-Hans */,
+				2E390CB0214BAA8200695F2C /* en */,
+				2E390CB2214BAAA300695F2C /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +398,10 @@
 		2EBFC5E62147A07D00C83633 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2EBFC5E72147A07D00C83633 /* Base */,
+				2E390C94214B573D00695F2C /* Base */,
+				2E390C96214B576600695F2C /* ko */,
+				2E390C98214B577000695F2C /* ja */,
+				2E390C9A214B578100695F2C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -391,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
