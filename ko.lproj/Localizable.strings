@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  LuansSquareCloud
+
+  Created by cho wanhee on 2018. 9. 14..
+  Copyright © 2018년 cho wanhee. All rights reserved.
+*/
+
+
+
+// Localization.strings (korean)
+"Edit" = "편집";
+"Done" = "완료";
+"User Account Setting" = "계정 설정";
+"Login" = "로그인";
+"Register" = "Register";

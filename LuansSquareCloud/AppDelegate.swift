@@ -12,11 +12,62 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    
+    
+    override init() {
+        
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //상단 STATUS BAR  색상 변경
+        (UIApplication.shared.value(forKey: "statusBar") as AnyObject).setValue(UIColor.white, forKey: "foregroundColor")
+        
+      
+        //        UserDefaults.standard.set("", forKey: "userIdEmail")
+        //        UserDefaults.standard.set("", forKey: "password")
+        //        UserDefaults.standard.integer(forKey: "integerKeyName")
+        //        UserDefaults.standard.removeObject(forKey: "boolKeyName")
+        if(UserService.sharedInstance.loginStatus != "Y"){
+            //앱에 Login User 정보가 있는지 검사.
+            if UserDefaults.standard.object(forKey: "userIdEmail") != nil {
+                //있다면, Login
+                var userIdEmailStr=UserDefaults.standard.string(forKey: "userIdEmail")
+                var userPass=UserDefaults.standard.string(forKey: "password")
+                
+                UserService.sharedInstance.login(userEmailId: userIdEmailStr!, password: userPass!){
+                                (loginUserModel) in
+                    
+                                if let loginUserModel = loginUserModel {
+                                    DispatchQueue.main.async {
+                                        if loginUserModel != nil {
+                                            if loginUserModel.successYN == "Y" {
+                                                //로그인 완료
+                                                LoginViewControllerSwitcher.updateRootVC()
+                                            }else{
+                                                //잘못된 로그인 정보
+                                                LoginViewControllerSwitcher.updateRootVC()
+                                            }
+                                        }else{
+                                            //잘못된 로그인 정보
+                                            LoginViewControllerSwitcher.updateRootVC()
+                                        }
+                                    }
+                                }
+                    
+                            }
+            }else{
+                //잘못된 로그인 정보
+                LoginViewControllerSwitcher.updateRootVC()
+            }
+        }
+        
+        sleep(1)
+        print("Edit".localized)
         return true
+       
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -40,7 +91,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    
+    
+    
 
 
+} 
+
+struct NewUserParams: DictionaryEncodable {
+    
+    var access_token: String?
+    var email: String?
+    var password: String?
+    var name: String
+    var phone_number: String
+    var user_social_profile_image: Bool?
+    var birthday: String?
+    var bjdong_code: String?
+    var referral: String?
+    var push_id: String?
+}
+
+
+protocol DictionaryEncodable: Encodable {}
+
+extension DictionaryEncodable {
+    func dictionary() -> [String: Any]? {
+        let encoder = JSONEncoder()
+        encoder.dateEncodingStrategy = .millisecondsSince1970
+        guard let json = try? encoder.encode(self),
+            let dict = try? JSONSerialization.jsonObject(with: json, options: []) as? [String: Any] else {
+                return nil
+        }
+        return dict
+    }
 }
 
