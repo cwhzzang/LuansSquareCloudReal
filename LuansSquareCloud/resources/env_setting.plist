@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WEB_SERVER_ADDRESS2</key>
+	<string>http://192.168.0.20:8080/LunaIotAdminWeb</string>
+	<key>WEB_SERVER_ADDRESS</key>
+	<string>http://175.213.124.67:58080/gbiot</string>
+</dict>
+</plist>

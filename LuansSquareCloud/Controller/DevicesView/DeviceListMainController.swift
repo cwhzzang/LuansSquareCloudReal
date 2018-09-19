@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  LuansSquareCloud
 //
 //  Created by cho wanhee on 2018. 9. 11..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class DeviceListMainController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

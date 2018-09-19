@@ -14,3 +14,6 @@
 "User Account Setting" = "계정 설정";
 "Login" = "로그인";
 "Register" = "Register";
+"Aleady Exists Email" ="Aleady Exists Email";
+"Invalid Passwod" = "Invalid Passwod";
+"System error" = "System error";

@@ -1,0 +1,69 @@
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "2Df-GG-ut8"; */
+"2Df-GG-ut8.normalTitle" = "로그아웃";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "3Km-LU-p3a"; */
+"3Km-LU-p3a.normalTitle" = "Reset";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "6DF-o5-S3V"; */
+"6DF-o5-S3V.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Loaded by FirstViewController"; ObjectID = "A5M-7J-77L"; */
+"A5M-7J-77L.text" = "Loaded by FirstViewController";
+
+/* Class = "UITextField"; placeholder = "Repeat New Password"; ObjectID = "CB8-4m-tfu"; */
+"CB8-4m-tfu.placeholder" = "Repeat New Password";
+
+/* Class = "UILabel"; text = "Email :"; ObjectID = "EZS-ZX-VKP"; */
+"EZS-ZX-VKP.text" = "이메일 주소;
+
+/* Class = "UIButton"; normalTitle = "Withraw!"; ObjectID = "GIs-D1-O4i"; */
+"GIs-D1-O4i.normalTitle" = "Withraw!";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "GjH-1e-Ha2"; */
+"GjH-1e-Ha2.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "HgM-V5-f6c"; */
+"HgM-V5-f6c.normalTitle" = "로그인";
+
+/* Class = "UILabel"; text = "First View"; ObjectID = "KQZ-1w-vlD"; */
+"KQZ-1w-vlD.text" = "First View";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UILabel"; text = "Current Password "; ObjectID = "RNE-Yh-UxY"; */
+"RNE-Yh-UxY.text" = "현재 비밀번호 ";
+
+/* Class = "UITextField"; placeholder = "New Password Input"; ObjectID = "VEd-Kb-Ol8"; */
+"VEd-Kb-Ol8.placeholder" = "New Password Input";
+
+/* Class = "UITextField"; placeholder = "Current Password Input"; ObjectID = "VfK-Q5-kSP"; */
+"VfK-Q5-kSP.placeholder" = "현재 비밀번호를 입력해 주세요";
+
+/* Class = "UITabBarItem"; title = "Devices"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Devices";
+
+/* Class = "UITabBarItem"; title = "Task"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Task";
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "dzs-Zl-iFg"; */
+"dzs-Zl-iFg.text" = "이메일";
+
+/* Class = "UILabel"; text = "New Password"; ObjectID = "gdw-p7-26I"; */
+"gdw-p7-26I.text" = "새로운 비밀번호";
+
+/* Class = "UILabel"; text = "wanhee.cho@gb-solutions.org"; ObjectID = "hOI-Pn-ofk"; */
+"hOI-Pn-ofk.text" = "wanhee.cho@gb-solutions.org";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "hOh-47-iGC"; */
+"hOh-47-iGC.text" = "비밀번호:";
+
+/* Class = "UITabBarItem"; title = "Store"; ObjectID = "p7k-sT-YjJ"; */
+"p7k-sT-YjJ.title" = "Store";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "v7z-8b-jd6"; */
+"v7z-8b-jd6.text" = "로그인";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";

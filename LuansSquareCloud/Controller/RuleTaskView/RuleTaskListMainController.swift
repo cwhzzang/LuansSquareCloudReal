@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  LuansSquareCloud
 //
 //  Created by cho wanhee on 2018. 9. 11..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class RuleTaskListMainController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

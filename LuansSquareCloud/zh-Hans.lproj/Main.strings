@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "6DF-o5-S3V"; */
+"6DF-o5-S3V.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Loaded by FirstViewController"; ObjectID = "A5M-7J-77L"; */
+"A5M-7J-77L.text" = "Loaded by FirstViewController";
+
+/* Class = "UILabel"; text = "Email :"; ObjectID = "EZS-ZX-VKP"; */
+"EZS-ZX-VKP.text" = "Email :";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "GjH-1e-Ha2"; */
+"GjH-1e-Ha2.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "HgM-V5-f6c"; */
+"HgM-V5-f6c.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "First View"; ObjectID = "KQZ-1w-vlD"; */
+"KQZ-1w-vlD.text" = "First View";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Loaded by SecondViewController";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "UITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "hOh-47-iGC"; */
+"hOh-47-iGC.text" = "Password:";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "p7k-sT-YjJ"; */
+"p7k-sT-YjJ.title" = "Item";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "v7z-8b-jd6"; */
+"v7z-8b-jd6.text" = "Login";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Second View";

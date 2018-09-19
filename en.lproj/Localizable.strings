@@ -11,3 +11,8 @@
 "User Account Setting" = "User Account Setting";
 "Login" = "Login";
 "Register" = "Register";
+"Input Email Address" = "Input Email Address";
+"Invalid Email Address" = "Invalid Email Address";
+"Register Complete. Check Emil Certify" = "Register Complete. Check Emil Certify";
+"System error" = "System error";
+"You have sent an authentication email to a registered email." = "You have sent an authentication email to a registered email.";
